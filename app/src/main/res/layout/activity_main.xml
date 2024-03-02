@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/alipay_hk" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvD3signation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:text="Designation" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Skills"
+
+            android:id="@+id/btnskills"
+            android:layout_margin="20dp">
+        </Button>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Education\n details"
+
+            android:id="@+id/eddetails"
+            android:layout_margin="20dp"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        >
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="work"
+
+            android:id="@+id/button3"
+            android:layout_margin="20dp">
+        </Button>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="achievement"
+
+            android:id="@+id/button4"
+            android:layout_margin="20dp"></Button>
+    </LinearLayout>
+
+</LinearLayout>

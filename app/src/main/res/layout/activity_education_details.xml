@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".educationDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Schooling- "
+            android:textSize="20dp"
+            android:shadowColor="@color/lightYellow"
+            android:textColor="@color/lightpink"
+            android:shadowRadius="10"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uttarakhand Public School"
+            android:textSize="20dp"
+            android:shadowColor="@color/lightYellow"
+            android:textColor="@color/lightpink"
+            android:shadowRadius="10"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="college- "
+            android:textSize="20dp"
+            android:shadowColor="@color/lightYellow"
+            android:textColor="@color/lightpink"
+            android:shadowRadius="10"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GNIOT"
+            android:textSize="20dp"
+            android:shadowColor="@color/lightYellow"
+            android:textColor="@color/lightpink"
+            android:shadowRadius="10"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inteeerniship "
+            android:textSize="20dp"
+            android:shadowColor="@color/lightYellow"
+            android:textColor="@color/lightpink"
+            android:shadowRadius="10"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INGENICO"
+            android:textSize="20dp"
+            android:shadowColor="@color/lightYellow"
+            android:textColor="@color/lightpink"
+            android:shadowRadius="10"
+            android:layout_weight="1"
+            android:textAlignment="textStart"
+            ></TextView>
+    </LinearLayout>
+
+</LinearLayout>
