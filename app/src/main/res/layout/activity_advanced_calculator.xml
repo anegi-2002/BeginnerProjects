@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".advancedCalculator"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="textview1"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/inputtext"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/resulttext"></TextView>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        style="@style/buttonRow"
+        >
+        <Button
+            style="@style/buttonnumber"
+            android:text="AC"
+            android:background="@drawable/rectangle_shape"
+            android:id="@+id/btnac"
+            >
+
+        </Button>
+        <Button
+            style="@style/buttonnumber"
+            android:background="@drawable/rectangle_shape"
+            >
+
+        </Button>
+        <Button
+            style="@style/buttonnumber"
+            android:background="@drawable/rectangle_shape"
+            >
+
+        </Button>
+        <Button
+            style="@style/buttonnumber"
+            android:text="/"
+            android:id="@+id/btndiv"
+            android:background="@drawable/rectangle_shape">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/buttonRow"
+        >
+        <Button
+            style="@style/buttonnumber"
+            android:text="7"
+            android:id="@+id/btn7"
+            android:background="@drawable/rectangle_shape">
+
+        </Button>
+        <Button
+            style="@style/buttonnumber"
+            android:text="8"
+            android:id="@+id/btn8"
+            android:background="@drawable/rectangle_shape">
+
+        </Button>
+        <Button
+            style="@style/buttonnumber"
+            android:text="9"
+            android:id="@+id/btn9"
+            android:background="@drawable/rectangle_shape">
+
+        </Button>
+        <Button
+            style="@style/buttonnumber"
+            android:text="X"
+            android:id="@+id/btnmulti"
+            android:background="@drawable/rectangle_shape">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/buttonRow"
+        >
+        <Button
+            style="@style/buttonnumber"
+            android:text="4"
+            android:id="@+id/btn4"
+            android:background="@drawable/rectangle_shape">
+
+        </Button>
+        <Button
+            style="@style/buttonnumber"
+            android:text="5"
+            android:id="@+id/btn5"
+            android:background="@drawable/rectangle_shape">
+
+        </Button>
+        <Button
+            style="@style/buttonnumber"
+            android:text="6"
+            android:id="@+id/btn6"
+            android:background="@drawable/rectangle_shape">
+
+        </Button>
+        <Button
+            style="@style/buttonnumber"
+            android:text="-"
+            android:id="@+id/btnMINUS"
+            android:background="@drawable/rectangle_shape">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/buttonRow"
+        >
+        <Button
+            style="@style/buttonnumber"
+            android:text="1"
+            android:id="@+id/btn1"
+            android:background="@drawable/rectangle_shape">
+
+        </Button>
+        <Button
+            style="@style/buttonnumber"
+            android:text="2"
+            android:id="@+id/btn2"
+            android:background="@drawable/rectangle_shape">
+
+        </Button>
+        <Button
+            style="@style/buttonnumber"
+            android:text="3"
+            android:id="@+id/btn3"
+            android:background="@drawable/rectangle_shape">
+
+        </Button>
+        <Button
+            style="@style/buttonnumber"
+            android:text="+"
+            android:id="@+id/btnPLUS"
+            android:background="@drawable/rectangle_shape">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/buttonRow"
+        >
+        <Button
+            style="@style/buttonnumber"
+            android:text="."
+            android:id="@+id/btndot"
+            android:background="@drawable/rectangle_shape"
+            >
+
+        </Button>
+        <Button
+            style="@style/buttonnumber"
+            android:text="0"
+            android:id="@+id/btn0"
+            android:background="@drawable/rectangle_shape"
+            >
+
+        </Button>
+
+        <Button
+            style="@style/buttonnumber"
+            android:text="="
+            android:id="@+id/btnequlsto"
+            android:layout_weight="2"
+            android:background="@color/yelloworcher"
+            >
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

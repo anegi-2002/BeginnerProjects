@@ -82,4 +82,20 @@
             android:layout_margin="20dp"></Button>
     </LinearLayout>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textAlignment="center"
+        android:id="@+id/calculator"
+        ></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advanced Calculator"
+        android:textAlignment="center"
+        android:id="@+id/adavncedcalculator"
+        ></Button>
+
 </LinearLayout>
