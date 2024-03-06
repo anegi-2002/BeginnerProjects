@@ -41,4 +41,70 @@
         android:text="DBMS"
         android:textSize="40px"
         ></TextView>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/vskillset">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skills1"
+            android:layout_weight="1"
+            android:checked="true"
+            android:id="@+id/skill1">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skills2"
+            android:layout_weight="1"
+
+            android:id="@+id/skill2">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skills3"
+            android:layout_weight="1"
+
+            android:id="@+id/skill3">
+        </RadioButton>
+    </RadioGroup>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chck1"
+        android:id="@+id/check1"
+        >
+    </CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chck3"
+        android:id="@+id/check3"
+        >
+    </CheckBox>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chck2"
+        android:id="@+id/check2"
+        >
+    </CheckBox>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click me"
+        android:id="@+id/clickme"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:id="@+id/resulttext">
+
+    </TextView>
   </LinearLayout>

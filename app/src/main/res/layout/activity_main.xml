@@ -63,7 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="100dp"
+
         >
         <Button
             android:layout_width="150dp"
@@ -81,21 +81,26 @@
             android:id="@+id/button4"
             android:layout_margin="20dp"></Button>
     </LinearLayout>
-
-    <Button
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calculator"
-        android:textAlignment="center"
-        android:id="@+id/calculator"
-        ></Button>
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Calculator"
+            android:textAlignment="center"
+            android:id="@+id/calculator"
+            android:layout_margin="20dp"
+            ></Button>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Advanced Calculator"
-        android:textAlignment="center"
-        android:id="@+id/adavncedcalculator"
-        ></Button>
-
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Advanced Calculator"
+            android:textAlignment="center"
+            android:id="@+id/adavncedcalculator"
+            android:layout_margin="20dp"
+            ></Button>
+    </LinearLayout>
 </LinearLayout>
